@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice 2</title>
+    <style>
+        fieldset{
+            /* width: 50%; */
+            width: 700px;
+        }
+        body{
+            background-image: url(./img/techpro_image.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 200px;
+            background-position-y: top;
+        }
+        form{
+            background-color: beige;
+            box-shadow: 3px black;
+        }
+        legend{
+            color: orange;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<!-- <h4 style="text-align: center;">Registration Form</h4> -->
+<center>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form>
+            <table>
+
+                <tbody>
+                <tr>
+                    <td>
+                        <label for="">First Name:</label>
+                        <input type="text">
+                    </td>
+                    <td style="text-align: left;"> <label for="">Hobbies:</label> </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Last Name:</label>
+                        <input type="text">
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="checkbox"id="Football"> Football
+                        <input type="checkbox" id="Volleyball"> Volleyball
+                        <input type="checkbox" id="Basketball"> Basketball
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender:</label>
+                        <input type="radio">Male
+                        <input type="radio" >Female
+                        <input type="radio">Don't specify
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><label for="">Profile Picture:</label>
+                        <input type="file">
+                    </td>
+                    <td>
+                        <label for="city">City: </label>
+                        <select name="city" id="">
+                            <!-- to set the default value -->
+                            <option value="" disabled selected>Select City</option>
+                            <option value="Istanbul">Istanbul</option>
+                            <option value="Izmir">Izmir</option>
+                            <option value="Ankara">Ankara</option>
+                            <option value="Bursa">Bursa</option>
+                        </select>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label>
+                        <input type="email"  id="email">
+                    </td>
+
+                    <td><label for="">Birth Date: </label>
+                        <input type="date"></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="url">Personal Website:</label>
+                        <input type="url"  id="url">
+                    </td>
+                    <td>
+                        <label for="">Address:</label>
+                        <textarea name="" id="" cols="20" rows="5"></textarea>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone:</label>
+                        <input type="tel"  id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</center>
+</body>
+</html>
