@@ -1,0 +1,118 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(173, 169, 169);
+    text-align: center;
+
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+.side-bar{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+
+body{
+    background-color: bisque;
+}
+
+/* General Style to all link tags
+text-decoration: none will remove the default underline
+ */
+
+a{
+    text-decoration: none;
+    font-family: cursive;
+    /* font-style: italic; */
+    font-size: 50px;
+
+}
+#link5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style for unvisited link */
+a:link{
+    color: red;
+}
+
+/* Style for visited link */
+
+a:visited{
+    color: green;
+}
+
+
+/* Style for hovering over a link */
+a:hover{
+    color: orange;
+    background-color: burlywood;
+}
+
+/* Style for a link when we keep it pressed for sometime  */
+
+a:active{
+    color: purple;
+}
+/* NOTE:  The order of the following styles matter
+    a:hover
+    a:active
+*/
+
+ul{
+   line-height: 2rem;
+   list-style-type: circle;
+   /* list-style-image: url(../img/flower.jpeg); */
+   list-style-type: '✨';
+   list-style-position: inside;
+}
+
+ul.recipe{
+    list-style-type: '🍰';
+}
+
+button{
+    width: 200px;
+    height: 80px;
+}
+
+.btn{
+    display: block;
+    /* padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 10px; */
+
+    padding: 10px 30px 40px 5px;
+
+    /* margin-left: 0; because by default this element is on the left side of the page
+    margin-right: auto; */
+
+    margin-left: auto;
+    margin-right: 0;
+
+    /* border: 5px solid green; */
+
+    border-left: 5px solid green;
+    border-right: 5px dashed red;
+    border-bottom: 2px dotted blue;
+    border-top: 9px ridge yellow;
+
+    border-radius: 50px;
+
+}
+
+body{
+
+    background-image: url(../img/image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px  400px;
+}
+
+

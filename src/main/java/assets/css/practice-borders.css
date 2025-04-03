@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between boxes */
+    width: 100%;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin-bottom: 20px; /* Adds space between the two rows */
+}
+
+div {
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: flex-start; /* Align text to the top */
+    justify-content: center; /* Keep text centered horizontally */
+    padding-top: 5px; /* Add some space from the top */
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2 {
+    border: 2px solid red;
+}
+
+.box1 a {
+    color: blue;
+}
+
+.box2 a {
+    color: green;
+}
+
+.box3, .box4 {
+    background-color: pink;
+    border: 2px solid pink;
+}
+
+.box3 a {
+    color: black;
+}
+
+.box4 a {
+    color: white;
+}

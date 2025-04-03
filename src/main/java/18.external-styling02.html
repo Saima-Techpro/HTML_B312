@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External Styling</title>
+    <link rel="stylesheet" href="./assets/css/external-styling.css">
+
+    <style>
+        div.descr {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Our Mission</h1>
+<article>
+    TechPro Education is a coding bootcamp founded in 2019 by a group of passionate IT field experts with 10 years of teaching experience. They all have domain knowledge and are actively working in top Fortune 500 companies. As such, they witness industry progression first-hand and update the curricula where needed, making the online IT courses content always relevant.
+</article>
+
+<h2>Our Vision</h2>
+<p>
+    In as little as six months, TechPro Education Online IT Courses & Bootcamps can equip you with the IT knowledge and skills required by the tech job market. They can help you land a tech job by guiding you with a career to determine your future development through IT coaching and training even after you graduate...
+</p>
+
+<!--  we can use class multiple times with different tags-->
+
+<article class="descr">
+    The founders of TechPro Education work at top IT companies like Bank of America, Mastercard, and Boats Group in the US. Being at the heart of the industry, we follow the latest trends and developments and instantly incorporate them into our training.
+</article>
+
+<div class="descr">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi, iure quo dolorum enim minus voluptatum? Quis, nisi facere quas autem deserunt, atque facilis saepe accusamus tempora alias perspiciatis fugiat!
+</div>
+
+
+<!-- This p tag has two classes: descr and the other one is more -->
+<!--  we can use more than one classes in the same tag-->
+<p class="descr more">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum facilis autem obcaecati expedita nulla eveniet? Dolores suscipit quod aperiam accusamus expedita voluptate ullam, quo dolor nobis dolorem, minus, eum aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi porro dolore id sit harum sequi consequuntur error, illo provident accusantium architecto voluptates quidem ad, dolorem pariatur? Atque sit necessitatibus ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, deleniti. Vel, voluptate illum soluta, eligendi rerum quibusdam nobis, vero suscipit molestias ex ea praesentium id aut sit odit ipsum culpa!
+</p>
+
+<article class="more">
+    TechPro Education is ranked as one of the best Software bootcamps for 2023 by the independent evaluation organization Career Karma. According to the Course Report, it is also one of the best QA Testing Bootcamps for 2023.
+</article>
+
+
+<!-- we can assign id and classes at the same time to any element -->
+<!-- id has priority over class  -->
+<div class="descr" id ="it-field" style="color: gold;">
+    We offer the opportunity for our Data Science and Full Stack Java Developer course graduates to work on Silicon Valley projects under the mentorship of professors from Stanford University. Our graduates gain experience and build a professional network, giving them a chance to work professionally in Silicon Valley.
+</div>
+</body>
+</html>

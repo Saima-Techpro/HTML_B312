@@ -1,0 +1,49 @@
+/* * {
+    color: purple;
+} */
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: firebrick;
+    font-size: 4rem;
+    text-align: center;
+}
+
+article{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+}
+
+p{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* classes should start with .  */
+.descr{
+    color: darkgreen;
+}
+
+.more{
+    color: rgb(225, 65, 172);
+}
+
+article.more{
+    color: gray;
+    font-family: cursive;
+}
+
+#it-field{
+    color: salmon;
+    background-color: rgb(150, 204, 248);
+    font-size: x-large;
+}
